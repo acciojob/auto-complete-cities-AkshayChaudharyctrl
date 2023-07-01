@@ -1,11 +1,12 @@
 
 import React from "react";
+import AutocompleteForm from "./../AutocompleteForm";
 import './../styles/App.css';
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        <AutocompleteForm/>
     </div>
   )
 }
